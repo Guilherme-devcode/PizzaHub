@@ -29,9 +29,9 @@ export const NavLink = styled(Link)`
 
 
     @media screen and (max-width: 400px){
-        position:absolute;
-        top:10px;
-        left:25px;
+        transform: translate(-100%, -50%);
+        font-size: 1.5rem;
+
     }
 `;
 export const NavIcon = styled.div`
@@ -49,9 +49,19 @@ export const NavIcon = styled.div`
         transform: translate(-175%, 50%);
         font-weight:bold;
     }
+    @media screen and (max-width: 400px){
+        .menu{
+            position: absolute;
+            display:none;
+        }
+
+    }
 `;
 
 export const Bars = styled(MdMenu)`
     font-size:2rem;
     transform:translate(-50%, -50%);
+
+    }
+    
 `

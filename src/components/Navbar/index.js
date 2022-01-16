@@ -8,7 +8,7 @@ const Navbar = () => {
                 <NavLink to='/'>Pizza <span>hub</span></NavLink>
                 <NavIcon>
                     <p className='menu'>Menu</p>
-                    <Bars />
+                    <Bars className='bars'/>
                 </NavIcon>
             </Nav>
         </>
