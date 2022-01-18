@@ -26,7 +26,7 @@ export const ProductImg = styled.img`
     height: 300px;
     min-width: 300px;
     max-width: 100%;
-    box-shadow: 8px 8px #fdc500;
+    box-shadow: 8px 8px #FF7A00;
 `
 export const ProductsHeading = styled.h1`
     font-size: clamp(2rem, 2.5vw, 3rem);
