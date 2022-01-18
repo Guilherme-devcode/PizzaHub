@@ -29,12 +29,15 @@ export const FeatureButton = styled.button`
     font-size: 1.4rem;
     padding: 0.6rem 3rem;
     border: none;
-    background: #ffc500;
+    background: #FF7A00;
     color: #000;
     transition: 0.2s ease-out;
+    text-transform: uppercase;
+    font-weight: bold;
 
     &:hover{
         color:#fff;
+        letter-spacing: 2px;
         background: 0.2 ease-out;
         cursor: pointer;
     }

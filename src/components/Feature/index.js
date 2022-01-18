@@ -7,7 +7,7 @@ function Feature() {
             <h1>Pizza do dia: Doritos Cheddar!</h1>
             <p>Os ingredientes são: 
             muçarela, doritos, cheddar, bacon e azeitonas!</p>
-            <FeatureButton>Peça Já</FeatureButton>
+            <FeatureButton>Peça Já!</FeatureButton>
         </FeatureContainer>
     )
 }

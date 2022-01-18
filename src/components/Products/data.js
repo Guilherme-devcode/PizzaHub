@@ -11,7 +11,7 @@ export const productData = [
     {
         img: product1,
         alt: 'Pizza',
-        name: 'Pizza portuguesa',
+        name: 'Portuguesa',
         desc: 'Preparada com a deliciosa combinação de ingredientes como ervilha, azeitona, molho de tomate, cebola, ovos, queijo, linguiça calabresa e orégano, a Pizza Portuguesa é sucesso em qualquer mesa.',
         price: 'R$ 38,90',
         button: 'Adicionar ao Carrinho'

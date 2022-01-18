@@ -84,14 +84,12 @@ export const BodyImg = styled.img`
 
     
 
-    @media screen and (max-width: 400px){
+    @media screen and (max-width: 900px){
         transform: translate(-100%, -50%);
         width: 250px;
         height: 200px;
-        position: relative;
-        left: 38vh;
-        top:0;
-
+        position: absolute;
+        display: none;
     }
     
 
