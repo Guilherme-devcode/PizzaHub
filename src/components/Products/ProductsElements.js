@@ -27,6 +27,13 @@ export const ProductImg = styled.img`
     min-width: 300px;
     max-width: 100%;
     box-shadow: 8px 8px #FF7A00;
+    transition: 0.25s;
+
+    &:hover{
+        box-shadow: 8px 8px #ffc500;
+        transform: scale(1.05);
+    }
+
 `
 export const ProductsHeading = styled.h1`
     font-size: clamp(2rem, 2.5vw, 3rem);

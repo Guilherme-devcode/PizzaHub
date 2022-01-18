@@ -16,7 +16,7 @@ function Footer() {
             <FooterWrap>
                 <SocialMedia>
                     <SocialMediaWrap>
-                        <SocialLogo to='/'>Pizza<span>Hub</span></SocialLogo>
+                        <SocialLogo to='/'>PIZZA<span>HUB</span></SocialLogo>
                         <SocialIcons>
                             <SocialIconsLink href='/' target='_blank' aria-label='Instagram' rel='noopener noreferrer'>
                             <FaInstagram/>
