@@ -11,8 +11,8 @@ export const BodyContainer = styled.div`
 export const BodyContent = styled.div`
     height: calc(80vh - 80px);
     max-height: 100%;
-    width: 100vw;
-    padding: 0rem calc((90vw - 1300px)/2);
+    width: 100%;
+    padding: 0rem calc((90vw - 1000px)/2);
     @media screen and (max-width: 400px){
         transform: translateY(-100px);
 
@@ -32,6 +32,7 @@ export const BodyItems = styled.div`
     text-transform:uppercase;
     line-height:1;
     font-weight:bold;
+    
 
     @media screen and (max-width: 650px){
         width:100%;
@@ -69,15 +70,17 @@ export const BodyBtn = styled.button`
     }
 `
 export const BodyImg = styled.img`
-    width: 568px;
-    height: 492px;
+    width: 468px;
+    height: 392px;
     position: absolute;
     top: 200px;
-    left: 60em;
+    left: 50rem;
     border-radius: 25px;
     box-shadow: -7px 9px 16px 3px rgba(255,122,0,0.7);
     outline: 3px solid #FF7A00;
     outline-offset: 14px ;
+    z-index: 0;
+    
 
     
 
